@@ -56,6 +56,25 @@ public class Triangle
 		System.out.print("\n");
 		body();
 		end();
-		
-	}
+		System.out.println(" ");
+		System.out.println("Do you want that again?(y/n)");
+		Scanner input = new Scanner(System.in);
+		String dess = input.nextLine();
+		if(dess.equals("y"))
+		while(dess.equals("y"))
+		{
+		System.out.println("Enter your number : ");
+                in();
+                one();
+                System.out.print("\n");
+                body();
+                end();
+                System.out.println(" ");
+		System.out.println("Do you want that again?(y/n)");
+                dess = input.nextLine();
+
+	} 
+		System.out.println("Thank you!");
+
+}
 }
